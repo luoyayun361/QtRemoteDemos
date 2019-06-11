@@ -1,0 +1,5 @@
+class CommonInterface
+{
+    SIGNAL(sigMessage(QString msg))   //server下发消息给client
+    SLOT(void onMessage(QString msg)) //server接收client的消息
+}
